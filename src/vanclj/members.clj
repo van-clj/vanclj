@@ -10,7 +10,7 @@
       :twitter "@romanandreg"
     }
 
-    "Tatsumoto Ujihisa" {
+    "Tatsuhiro Ujihisa" {
       :github "http://github.com/ujihisa"
       :twitter "@ujm"
     }
