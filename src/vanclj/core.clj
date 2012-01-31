@@ -24,9 +24,9 @@
               :rel "stylesheet"
               :type "text/css"}]
 
-      [:link {:rel "stylesheet" :href "style.css" :type "text/css"}]
+      [:link {:rel "stylesheet" :href "/style.css" :type "text/css"}]
 
-      [:title "VanCloj - Vancouver Clojure Group"]
+      [:title "van-cloj / Vancouver Clojure Club"]
 
       [:meta {:http-equiv "content-type"
               :content "text/html;charset=UTF-8"}]]
@@ -36,10 +36,10 @@
       [:div.header
         [:h1
           [:a {:href "/"}
-            [:img {:src "logo.png" :alt "VanCloj"}]]]
+            [:img {:src "/logo.png" :alt "van-clj"}]]]
 
         [:div#info-box
-          [:h2 "Vancouver's Clojure Group"]
+          [:h2 "Vancouver's Clojure Club"]
           [:ul
             [:li
               [:b "Time"] ": 7:00 pm to 9:00 pm each Monday"]
@@ -53,9 +53,9 @@
 
        [:div.body
          [:p "We meet every Monday to learn Clojure and work on possible
-             projects, at the beginning of the month to discuss and come
+             projects, at the beginning of the month we discuss and come
              up with project ideas, the following Mondays are spent
-             on work and help for this projects. We repeat
+             on working and helping devs on this projects. We repeat
              this cycle every month."]
 
 
@@ -70,21 +70,21 @@
        [:div.footer
          [:p ["If you want your name and projects to show up on this page, get added to "
 
-              [:a { :href  "http://github.com/VanClj" }
-                  "VanClj organization on Github"]
+              [:a { :href  "http://github.com/van-clj" }
+                  "van-clj organization on Github"]
 
               " and add your name and project to "
 
-              [:a { :href "http://github.com/van-clj/van-clj" }
+              [:a { :href "http://github.com/van-clj/vanclj" }
                   "This site repository"]
 
               ". Your name goes in "
 
-              [:code "src/vancloj/members.clj"]
+              [:code "src/vanclj/members.clj"]
 
               " and your projects in "
 
-              [:code "src/vancloj/projects.clj"] "."]]]]))
+              [:code "src/vanclj/projects.clj"] "."]]]]))
 
 
 (defn visit-members [node w]
