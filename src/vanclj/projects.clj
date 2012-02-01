@@ -14,4 +14,9 @@
    ;   :url "http://github.com/vancloj/zetta-river"
    ;   :summary "Transforms a river stream from raw input into parsed input using zetta parsers."
    ; }
+
+   ; "plusplus-lingrbot" {
+   ;   :url "https://github.com/van-clj/plusplus-lingrbot"
+   ;   :summary "Counts number of ++ on lingr."
+   ; }
   })
