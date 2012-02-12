@@ -5,6 +5,11 @@
       :url "http://github.com/van-clj/zetta-parser"
       :summary "A monadic parser combinator library in Clojure (port of Haskell's attoparsec)."
     }
+   
+   "json-zetta" {
+     :url "http://github.com/van-clj/json-zetta" 
+     :summary "JSON zetta-parser combinator (port of Haskell's aeson parser)"
+   }
 
    "river" {
      :url "http://github.com/roman/river"
