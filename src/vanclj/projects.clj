@@ -35,4 +35,10 @@
      :url "https://github.com/van-clj/thoth"
      :summary "A simple URL shortener using noir + mongodb"
    }
+
+   "dalap" {
+     :url "https://github.com/van-clj/dalap"
+     :summary "Dalap is an extremely flexible serialization / template library for Clojure. The name is the acronym for Decide As Late As Possible, from lean programming." 
+   }
+
   })
