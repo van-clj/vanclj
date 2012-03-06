@@ -30,4 +30,9 @@
      :url "https://github.com/van-clj/plusplus-lingrbot"
      :summary "Counts number of ++ on lingr."
    }
+
+   "thoth" {
+     :url "https://github.com/van-clj/thoth"
+     :summary "A simple URL shortener using noir + mongodb"
+   }
   })
