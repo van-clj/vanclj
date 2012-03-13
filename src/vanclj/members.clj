@@ -29,5 +29,15 @@
       :github ""
       :twitter ""
     }
+
+    "Nathan Sorenson" {
+      :github "http://github.com/takeoutweight"
+      :twitter "@takeoutweight"
+    }
+
+    "Alexander Taggart" {
+      :github "http://github.com/ataggart"
+      :twitter ""
+    }
   })
 
