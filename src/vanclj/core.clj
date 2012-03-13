@@ -26,7 +26,7 @@
 
       [:link {:rel "stylesheet" :href "/style.css" :type "text/css"}]
 
-      [:title "van-cloj / Vancouver Clojure Club"]
+      [:title "van-clj / Vancouver Clojure Club"]
 
       [:meta {:http-equiv "content-type"
               :content "text/html;charset=UTF-8"}]]
