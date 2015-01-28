@@ -72,7 +72,7 @@
               [:a {:href "https://www.google.ca/maps/place/CodeCore/@49.280379,-123.106905,17z/data=!3m1!4b1!4m2!3m1!1s0x5486717bb3f49f1d:0xcac634054e7082c6"} "CodeCore Bootcamp."]]
 
              [:li
-              [:a {:href "http://groups.google.com/group/vancouver-clojure-club"} "Mailing List"]]]]]
+              [:a {:href "http://www.meetup.com/Vancouver-Clojure/events/220103236"} "Meetup - Info and RSVP"]]]]]
 
        [:div.body
          [:p "We are a community for people who are interested in the clojure programming
@@ -91,8 +91,7 @@
            (project-list)]]
 
        [:div.footer
-         [:p
-            "If you want your name and projects to show up on this page, get added to "
+         [:p "If you want your name and projects to show up on this page, get added to "
 
             [:a { :href  "http://github.com/van-clj" }
                 "van-clj organization on Github"]
