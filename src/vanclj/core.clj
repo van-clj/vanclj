@@ -65,7 +65,7 @@
           [:h2 "Vancouver's Clojure Club"]
           [:ul
             [:li
-              [:b "Time"] ": 6:00 pm to 8:30 pm Thursday Feb 4, 2015"]
+              [:b "Time"] ": 6:00 pm to 8:30 pm Thursday Feb 5, 2015"]
 
              [:li
               [:b "Location"] ": "
