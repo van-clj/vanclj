@@ -65,14 +65,14 @@
           [:h2 "Vancouver's Clojure Club"]
           [:ul
             [:li
-              [:b "Time"] ": 6:00 pm to 8:30 pm Thursday Feb 5, 2015"]
+              [:b "Time"] ": 6:00 pm to 8:30 pm Thursday Feb 19, 2015"]
 
              [:li
               [:b "Location"] ": "
               [:a {:href "https://www.google.ca/maps/place/CodeCore/@49.280379,-123.106905,17z/data=!3m1!4b1!4m2!3m1!1s0x5486717bb3f49f1d:0xcac634054e7082c6"} "CodeCore Bootcamp."]]
 
              [:li
-              [:a {:href "http://www.meetup.com/Vancouver-Clojure/events/220103236"} "Meetup - Info and RSVP"]]]]]
+              [:a {:href "http://www.meetup.com/Vancouver-Clojure/events/220342993"} "Meetup - Info and RSVP"]]]]]
 
        [:div.body
          [:p "We are a community for people who are interested in the clojure programming
