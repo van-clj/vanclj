@@ -44,5 +44,10 @@
       :github "http://github.com/brentvatne"
       :twitter "http://www.twitter.com/notbrent"
     }
+
+    "David Dossot" {
+      :github "https://github.com/ddossot"
+      :twitter "https://twitter.com/ddossot"
+    }
   })
 
