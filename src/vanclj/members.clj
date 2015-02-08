@@ -49,5 +49,9 @@
       :github "https://github.com/ddossot"
       :twitter "https://twitter.com/ddossot"
     }
+  
+    "Dima Condur" {
+      :github "https://github.com/condur"
+    }
   })
 
