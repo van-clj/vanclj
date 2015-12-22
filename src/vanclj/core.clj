@@ -37,77 +37,77 @@
 (defn main-template []
   (html
 
-    [:head
+   [:head
 
-      [:link {:href "http://fonts.googleapis.com/css?family=Junge"
-              :rel "stylesheet"
-              :type "text/css"}]
+    [:link {:href "http://fonts.googleapis.com/css?family=Junge"
+            :rel "stylesheet"
+            :type "text/css"}]
 
-      [:link {:href "http://fonts.googleapis.com/css?family=Magra"
-              :rel "stylesheet"
-              :type "text/css"}]
+    [:link {:href "http://fonts.googleapis.com/css?family=Magra"
+            :rel "stylesheet"
+            :type "text/css"}]
 
-      [:link {:rel "stylesheet" :href "style.css" :type "text/css"}]
+    [:link {:rel "stylesheet" :href "style.css" :type "text/css"}]
 
-      [:title "van-clj / Vancouver Clojure Club"]
+    [:title "van-clj / Vancouver Clojure Club"]
 
-      [:meta {:http-equiv "content-type"
-              :content "text/html;charset=UTF-8"}]]
+    [:meta {:http-equiv "content-type"
+            :content "text/html;charset=UTF-8"}]]
 
-    [:body
+   [:body
 
-      [:div.header
-        [:h1
-          [:a {:href "/"}
-            [:img {:src "logo.png" :alt "van-clj"}]]]
+    [:div.header
+     [:h1
+      [:a {:href "/"}
+       [:img {:src "logo.png" :alt "van-clj"}]]]
 
-        [:div#info-box
-          [:h2 "Vancouver's Clojure Club"]
-          [:ul
-            [:li
-              [:b "Time"] ": 6:00 pm to 8:30 pm Thursday April 16, 2015"]
+     [:div#info-box
+      [:h2 "Vancouver's Clojure Club"]
+      [:ul
+       [:li
+        [:b "Time"] ": 7:00 pm to 8:30 pm Tuesday December 22nd, 2015"]
 
-             [:li
-              [:b "Location"] ": "
-              [:a {:href "https://www.google.com/maps?f=q&hl=en&q=142+W+Hastings+St.,+Vancouver,+BC,+ca"} "CodeCore Bootcamp."]]
+       [:li
+        [:b "Location"] ": "
+        [:a {:href "https://www.google.com/maps?f=q&hl=en&q=350+W+Georgia+St,+Vancouver,+BC,+ca"} "Vancouver Public Library Downtown."]]
 
-             [:li
-              [:a {:href "http://www.meetup.com/Vancouver-Clojure/events/221537925/"} "Meetup - Info and RSVP"]]]]]
+       [:li
+        [:a {:href "http://www.meetup.com/Vancouver-Clojure/events/227492970/"} "Meetup - Info and RSVP"]]]]]
 
-       [:div.body
-         [:p "We are a community for people who are interested in the clojure programming
+    [:div.body
+     [:p "We are a community for people who are interested in the clojure programming
               language, whether it be on the jvm, javascript or clr. we meet bi-weekly on
               thursdays to hack on projects and exercises, share our learning through quick
               lightning talks and help each other to get the most out of the language. all
               levels of experience are welcome."]
 
 
-         [:div#members
-           [:h2 "Members"]
-           (member-list)]
+     [:div#members
+      [:h2 "Members"]
+      (member-list)]
 
-         [:div#projects
-           [:h2 "Projects"]
-           (project-list)]]
+     [:div#projects
+      [:h2 "Projects"]
+      (project-list)]]
 
-       [:div.footer
-         [:p "If you want your name and projects to show up on this page, get added to "
+    [:div.footer
+     [:p "If you want your name and projects to show up on this page, get added to "
 
-            [:a { :href  "http://github.com/van-clj" }
-                "van-clj organization on Github"]
+      [:a { :href  "http://github.com/van-clj" }
+       "van-clj organization on Github"]
 
-            " and add your name and project to "
+      " and add your name and project to "
 
-            [:a { :href "http://github.com/van-clj/vanclj" }
-                "This site repository"]
+      [:a { :href "http://github.com/van-clj/vanclj" }
+       "This site repository"]
 
-            ". Your name goes in "
+      ". Your name goes in "
 
-            [:code "src/vanclj/members.clj"]
+      [:code "src/vanclj/members.clj"]
 
-            " and your projects in "
+      " and your projects in "
 
-            [:code "src/vanclj/projects.clj"] "."]]]))
+      [:code "src/vanclj/projects.clj"] "."]]]))
 
 (defn -main []
   (spit "out/index.html" (main-template)))
