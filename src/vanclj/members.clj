@@ -53,5 +53,7 @@
     "Dima Condur" {
       :github "https://github.com/condur"
     }
-  })
+
+   "Andrea Richiardi" {:github "https://github.com/arichiardi"
+                       :twitter "https://twitter.com/richiardiandrea"}})
 
