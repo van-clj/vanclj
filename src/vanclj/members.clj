@@ -60,5 +60,8 @@
     }
 
    "Andrea Richiardi" {:github "https://github.com/arichiardi"
-                       :twitter "https://twitter.com/richiardiandrea"}})
+                       :twitter "https://twitter.com/richiardiandrea"}
+
+   "David Y. Kay" {:github "https://github.com/davidykay"
+                   :twitter "https://twitter.com/davidykay"}})
 
