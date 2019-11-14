@@ -1,67 +1,48 @@
-(def members
-  {
-    "Tavis Rudd" {
-      :github "http://github.com/tavisrudd"
-      :twitter "http://www.twitter.com/tavisrudd"
-    }
+(def +members+
+  [{:name "Justin Belanger"}
 
-    "Roman Gonzalez" {
-      :github "http://github.com/roman"
-      :twitter "http://www.twitter.com/romanandreg"
-    }
+   {:name "Andrea Richiardi"
+    :avatar "andrea-richiardi-avatar.jpg"
+    :website "https://andrearichiardi.com/"
+    :github "https://github.com/arichiardi"
+    :twitter "https://twitter.com/richiardiandrea"}
 
-    "Tatsuhiro Ujihisa" {
-      :github "http://github.com/ujihisa"
-      :twitter "http://www.twitter.com/ujm"
-    }
+   {:name "Ivar Vasara"
+    :github "https://github.com/ivar"
+    :twitter "https://twitter.com/ivarv" }
 
-    "Rafael Chacon" {
-      :github "http://github.com/rafael"
-      :twitter "http://www.twitter.com/rafaelchacon"
-    }
+   {:name "Brent Vatne"
+    :github "http://github.com/brentvatne"
+    :twitter "http://www.twitter.com/notbrent"}
 
-    "Naoya Makino" {
-      :github "http://github.com/naoyamakino"
-      :twitter "http://www.twitter.com/naoyamakino"
-    }
+   {:name "David Y. Kay"
+    :github "https://github.com/davidykay"
+    :twitter "https://twitter.com/davidykay"}
 
-    "Saem Ghani" {
-      :github ""
-      :twitter ""
-    }
+   {:name "Tavis Rudd"
+    :github "http://github.com/tavisrudd"
+    :twitter "http://www.twitter.com/tavisrudd"}
 
-    "Nathan Sorenson" {
-      :github "http://github.com/takeoutweight"
-      :twitter "http://www.twitter.com/takeoutweight"
-    }
+   {:name "Roman Gonzalez"
+    :github "http://github.com/roman"
+    :twitter "http://www.twitter.com/romanandreg"}
 
-    "Alexander Taggart" {
-      :github "http://github.com/ataggart"
-      :twitter ""
-    }
+   {:name "Tatsuhiro Ujihisa"
+    :github "http://github.com/ujihisa"
+    :twitter "http://www.twitter.com/ujm"}
 
-    "Brent Vatne" {
-      :github "http://github.com/brentvatne"
-      :twitter "http://www.twitter.com/notbrent"
-    }
+   {:name "Rafael Chacon"
+    :github "http://github.com/rafael"
+    :twitter "http://www.twitter.com/rafaelchacon"}
 
-    "David Dossot" {
-      :github "https://github.com/ddossot"
-      :twitter "https://twitter.com/ddossot"
-    }
-  
-    "Dima Condur" {
-      :github "https://github.com/condur"
-    }
- 
-    "Ivar Vasara" {
-      :github "https://github.com/ivar"
-      :twitter "https://twitter.com/ivarv"
-    }
+   {:name "Naoya Makino"
+    :github "http://github.com/naoyamakino"
+    :twitter "http://www.twitter.com/naoyamakino"}
 
-   "Andrea Richiardi" {:github "https://github.com/arichiardi"
-                       :twitter "https://twitter.com/richiardiandrea"}
+   {:name  "Nathan Sorenson"
+    :github "http://github.com/takeoutweight"
+    :twitter "http://www.twitter.com/takeoutweight"}
 
-   "David Y. Kay" {:github "https://github.com/davidykay"
-                   :twitter "https://twitter.com/davidykay"}})
-
+   {:name   "David Dossot"
+    :github "https://github.com/ddossot"
+    :twitter "https://twitter.com/ddossot"}])
