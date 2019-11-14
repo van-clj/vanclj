@@ -1,5 +1,11 @@
-(defproject vanclj "0.0.2"
+(defproject scrutinize-fn "0.1.0"
   :description "van-clj static site generator"
-  :dependencies [[org.clojure/clojure "1.6.0"]
-                 [hiccup "1.0.5"]]
-  :main vanclj.core)
+  :source-paths ["src"]
+  :test-paths ["test"]
+  :resource-paths []
+  :compile-path nil
+  :target-path nil
+  :plugins [[lein-tools-deps "0.4.5"]]
+  :middleware [lein-tools-deps.plugin/resolve-dependencies-with-deps-edn]
+  :lein-tools-deps/config {:config-files [:install :user :project]
+                           :aliases [:dev :test]})

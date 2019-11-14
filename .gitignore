@@ -1,3 +1,4 @@
+.nrepl-port
 /pom.xml
 *jar
 /lib
@@ -6,5 +7,7 @@
 /.lein-failures
 /checkouts
 /.lein-deps-sum
+.cpcache/*
 out/*
 target/*
+node_modules/*

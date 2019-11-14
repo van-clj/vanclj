@@ -1,0 +1,29 @@
+@charset "utf-8";
+
+// Import a Google Font
+@import url('https://fonts.googleapis.com/css?family=Nunito:400,700');
+
+// Bulma
+$family-sans-serif: "Nunito", sans-serif;
+
+// https://github.com/jgthms/bulma/issues/305
+$navbar-item-img-max-height: 48px;
+
+@import "./bulma-0.8.0/bulma.sass";
+
+// AR: from https://fontawesome.com/how-to-use/on-the-web/using-with/sass
+//
+// You probably already know this but we seem to always forget it. The font
+// path is relative from your compiled CSS directory. Ensure that you place
+// your webfonts directory in a place relative to where your final CSS will be
+// located.
+$fa-font-path: "./webfonts";
+
+@import "./fontawesome-free-5.11.2/fontawesome.scss";
+@import "./fontawesome-free-5.11.2/regular.scss";
+@import "./fontawesome-free-5.11.2/solid.scss";
+@import "./fontawesome-free-5.11.2/brands.scss";
+
+.meetup-hero.card .meetup-icon.tile {
+    margin: 0.625rem !important;
+}

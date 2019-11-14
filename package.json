@@ -1,0 +1,15 @@
+{
+  "name": "vanclj-css",
+  "version": "1.0.0",
+  "license": "UNLICENSE",
+  "scripts": {
+    "html-build": "clojure -M:build public/index.html",
+    "html-watch": "nodemon -w src -w public -e 'clj png jpeg' -x 'clojure -M:build public/index.html'",
+    "css-build": "node-sass --omit-source-map-url scss/vanclj-styles.scss public/styles.css",
+    "css-watch": "npm run css-build -- --watch"
+  },
+  "devDependencies": {
+    "nodemon": "1.19.4",
+    "node-sass": "4.9.2"
+  }
+}
