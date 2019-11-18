@@ -43,7 +43,7 @@
     [:div.tile.is-child.has-text-centered
      (meetup-hero (first meetups))]]
    ;; secondary meetups
-   [:div.tile.is-parent.is-vertical
+   [:div.tile.is-parent.is-vertical.is-hidden-mobile
     (for [meetup (take 2 (rest meetups))
           :let [{:keys [date from-to summary host]} meetup
                 {:keys [name address image google-map]} host]]
