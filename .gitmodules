@@ -1,0 +1,3 @@
+[submodule "public"]
+	path = public
+	url = git@github.com:van-clj/van-clj.github.com.git
