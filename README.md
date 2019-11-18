@@ -2,6 +2,14 @@
 
 The main website of the Vancouver Clojure group.
 
+## Tweak the website
+
+There are three file, one for each thing you need to add:
+
+ * [meetups.clj](./src/vanclj/meetups.clj): Feel free to modify the list of meetups and hosts. The first (chronologically) will end up in the central area.
+ * [members.clj](./src/vanclj/members.clj): Open a PR and add yourself as a member!
+ * [projects.clj](./src/vanclj/projects.clj): Add the link to one of our projects.
+
 ## Usage
 
 In order to watch the files and rebuild:
