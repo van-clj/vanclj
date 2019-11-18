@@ -86,14 +86,13 @@
             [:div.title.is-6 name]
             (when (and twitter github)
               [:div.level
-               (when twitter
-                 [:div.level-item
+               [:div.level-item
+                (when twitter
                   [:a.icon {:href twitter}
-                   [:i.fab.fa-twitter]]])
-               (when github
-                 [:div.level-item
+                   [:i.fab.fa-twitter]])
+                (when github
                   [:a.icon {:href github}
-                   [:i.fab.fa-github]]])])]]])])]])
+                   [:i.fab.fa-github]])]])]]])])]])
 
 (defn project-section [projects]
   (for [ps (partition-all 3 projects)]
