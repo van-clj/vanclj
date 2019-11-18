@@ -21,6 +21,20 @@ cd public
 python -m http.server
 ```
 
+#### Nitty Gritty
+
+The website now uses [Bulma](https://bulma.io/) along with our beloved Hiccup.
+
+Additionally, the `public` dir is a git submodule containing the GitHub pages
+repository.
+
+## Deploy
+
+There is a `deploy.sh` script in the repository root that will commit anything
+in the `public` submodule __and__ also commit the parent. You need both when
+working with submodules and given it is very easy to forget the script does it
+for you.
+
 ## Unlicenced
 
 This is free and unencumbered software released into the public domain.
