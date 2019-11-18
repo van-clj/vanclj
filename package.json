@@ -6,6 +6,7 @@
     "html-build": "clojure -M:build public/index.html",
     "html-watch": "nodemon -w src -w public -e 'clj png jpeg' -x 'clojure -M:build public/index.html'",
     "css-build": "node-sass --omit-source-map-url scss/vanclj-styles.scss public/styles.css",
+    "css-min-build": "node-sass --output-style compressed --omit-source-map-url scss/vanclj-styles.scss public/styles.css",
     "css-watch": "npm run css-build -- --watch"
   },
   "devDependencies": {
