@@ -18,7 +18,7 @@
      [:div.card-content
       [:div.tile.is-ancestor
        [:div.tile.is-parent
-        [:div.meetup-icon.tile.is-child.is-1
+        [:div.meetup-icon.tile.is-child.is-1.is-pulled-left
          [:span.icon.is-medium.is-inline-flex
           [:i.fas.fa-lg.fa-clock {:aria-hidden "true"}]]]
         [:div.tile.is-child.has-text-left
@@ -26,7 +26,7 @@
          [:p.title.is-5 (meetups/format-hero-date date)]
          [:p.subtitle.is-6 from-to]]]
        [:div.tile.is-parent
-        [:div.meetup-icon.tile.is-child.is-1
+        [:div.meetup-icon.tile.is-child.is-1.is-pulled-left
          [:span.icon.is-medium.is-inline-flex
           [:i.fas.fa-lg.fa-map-marker-alt {:aria-hidden "true"}]]]
         [:div.tile.is-child.has-text-left
