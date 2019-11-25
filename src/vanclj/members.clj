@@ -45,4 +45,8 @@
 
    {:name   "David Dossot"
     :github "https://github.com/ddossot"
-    :twitter "https://twitter.com/ddossot"}])
+    :twitter "https://twitter.com/ddossot"}
+   
+   {:name "Dan Fornika"
+    :github "https://github.com/dfornika"
+    :twitter "https://twitter.com/dfornika"}])
