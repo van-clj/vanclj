@@ -49,4 +49,5 @@
    
    {:name "Dan Fornika"
     :github "https://github.com/dfornika"
+    :avatar "dfornika-avatar.jpg"
     :twitter "https://twitter.com/dfornika"}])
