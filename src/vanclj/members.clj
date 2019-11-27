@@ -11,6 +11,11 @@
     :github "https://github.com/ivar"
     :twitter "https://twitter.com/ivarv" }
 
+   {:name "Dan Fornika"
+    :github "https://github.com/dfornika"
+    :avatar "dfornika-avatar.jpg"
+    :twitter "https://twitter.com/dfornika"}
+
    {:name "Brent Vatne"
     :github "http://github.com/brentvatne"
     :twitter "http://www.twitter.com/notbrent"}
@@ -45,9 +50,4 @@
 
    {:name   "David Dossot"
     :github "https://github.com/ddossot"
-    :twitter "https://twitter.com/ddossot"}
-   
-   {:name "Dan Fornika"
-    :github "https://github.com/dfornika"
-    :avatar "dfornika-avatar.jpg"
-    :twitter "https://twitter.com/dfornika"}])
+    :twitter "https://twitter.com/ddossot"}])
