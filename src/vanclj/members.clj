@@ -1,5 +1,7 @@
 (def +members+
-  [{:name "Justin Belanger"}
+  [{:name "Justin Belanger"
+    :avatar "justin-belanger-avatar.png"
+    :github "https://github.com/justindbelanger"}
 
    {:name "Andrea Richiardi"
     :avatar "andrea-richiardi-avatar.jpg"
