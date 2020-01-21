@@ -18,11 +18,14 @@
    :image "elasticpath-office.jpg"})
 
 (def ^:dynamic +meetups+
-  [{:date "20191205"
+  [{:date "20200127"
     :from-to "6.00 PM to 8.00 PM"
-    :summary "We're having a meetup to close out the year, celebrate the holidays, and show off things we like about Clojure and LISP! Bring your hobby projects and latest discoveries in Clojure (and other LISPs) to share with the group. Bonus points for wintery-themed projects!"
+    :summary "Dear Clojisperians (completely made up name). Come and enjoy the friendly atmosphere of parentheses."
     :host +spark-host+}
-
+   {:date "20191205"
+    :from-to "6.00 PM to 8.00 PM"
+    :summary "Dear Clojisperians (completely made up name). Come and enjoy the friendly atmosphere of parentheses."
+    :host +spark-host+}
    {:date "20191024"
     :from-to "6.00 PM to 8.00 PM"
     :summary "In this meetup we would like members to pick any dialect of LISP and do something fun with it (Bonus points for Halloween-themed projects!).We are hoping each group member will give a (very) informal presentation, probably about 10 to 15 minutes long. If you made something cool--share it! If you came up against a roadblock--still, share it! We are all eager to hear your story."
