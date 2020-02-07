@@ -26,6 +26,12 @@
     :github "https://github.com/davidykay"
     :twitter "https://twitter.com/davidykay"}
 
+   {:name "Joel Dunham"
+    :avatar "joel-dunham-avatar.jpg"
+    :website "http://jrwdunham.com/"
+    :github "https://github.com/jrwdunham"
+    :twitter "https://twitter.com/joelrwdunham"}
+
    {:name "Tavis Rudd"
     :github "http://github.com/tavisrudd"
     :twitter "http://www.twitter.com/tavisrudd"}
