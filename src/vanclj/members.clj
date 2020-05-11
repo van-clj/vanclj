@@ -61,6 +61,6 @@
     :twitter "https://twitter.com/ddossot"}
 
    {:name "Ryan McCuaig"
-    :avatar "http://2.gravatar.com/avatar/814feeb82ede969c68d62512f3da2aec"
+    :avatar "https://2.gravatar.com/avatar/814feeb82ede969c68d62512f3da2aec"
     :github "https://github.com/rgm"
     :twitter "https://twitter.com/rgm"}])
