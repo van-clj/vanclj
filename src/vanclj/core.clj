@@ -65,7 +65,7 @@
 (defn member-section [members]
   [:div.tile.is-ancestor
    [:div.tile.is-vertical
-    (for [members (partition-all 4 (take 8 members))]
+    (for [members (partition-all 4 members)]
       [:div.tile.is-parent
        (for [{:keys [name website avatar twitter github]} members]
          [:div.tile.is-child.box.has-text-centered
